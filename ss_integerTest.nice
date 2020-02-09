@@ -1,0 +1,48 @@
+Script started on 2019-10-23 17:04:05-04:00
+0;bzargar@compute:~/Tmp/CS2211a/Asn/asn3[bzargar@compute asn3]$ pwd
+/home/bzargar/Tmp/CS2211a/Asn/asn3
+0;bzargar@compute:~/Tmp/CS2211a/Asn/asn3[bzargar@compute asn3]$ date
+Wed Oct 23 17:04:11 EDT 2019
+0;bzargar@compute:~/Tmp/CS2211a/Asn/asn3[bzargar@compute asn3]$ who am i
+bzargar  pts/17       2019-10-23 17:04
+0;bzargar@compute:~/Tmp/CS2211a/Asn/asn3[bzargar@compute asn3]$ ./ss_integer
+Enter the integer you wish to see in seven-segment display format: 0
+ _ 
+| |
+|_|
+Would you like to continue? Y/N
+y
+Enter the integer you wish to see in seven-segment display format: 1234567890
+    _  _     _  _  _  _  _  _ 
+  | _| _||_||_ |_   ||_||_|| |
+  ||_  _|  | _||_|  ||_| _||_|
+Would you like to continue? Y/N
+y
+Enter the integer you wish to see in seven-segment display format: -1234567890
+     _  _     _  _  _  _  _  _ 
+_  | _| _||_||_ |_   ||_||_|| |
+   ||_  _|  | _||_|  ||_| _||_|
+Would you like to continue? Y/N
+y
+Enter the integer you wish to see in seven-segment display format: 000
+ _ 
+| |
+|_|
+Would you like to continue? Y/N
+y
+Enter the integer you wish to see in seven-segment display format: 111
+         
+  |  |  |
+  |  |  |
+Would you like to continue? Y/N
+y
+Enter the integer you wish to see in seven-segment display format: -111
+          
+_  |  |  |
+   |  |  |
+Would you like to continue? Y/N
+n
+0;bzargar@compute:~/Tmp/CS2211a/Asn/asn3[bzargar@compute asn3]$ exit
+exit
+
+Script done on 2019-10-23 17:05:39-04:00
